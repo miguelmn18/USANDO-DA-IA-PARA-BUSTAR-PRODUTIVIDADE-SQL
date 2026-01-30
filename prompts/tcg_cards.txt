@@ -1,0 +1,34 @@
+
+create a script to create a table in postgresql 
+
+
+the first table is a table to save a pokemon tcg cards
+the second table is a table to save colletctions set 
+
+connect to table with foreing key
+
+
+first table: tbl_cards
+
+-hp
+-name
+-type
+-stage
+-info 
+-atack 
+-dammage
+-weak
+-ressis
+-retreat 
+-cardNumberInCollections
+
+the second table: tbl_collections
+
+-id
+-collectionsSetName
+-release Date 
+-totalCardsInCollections
+
+
+
+ 

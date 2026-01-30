@@ -1,0 +1,22 @@
+INSERT INTO tbl_cards (hp, name, type_id, stage_id, info, attack, damage, weak, ressis, retreat, cardNumberInCollections, collection_id)
+VALUES
+(40, 'Bulbasaur', 1, 1, 'Seed Pokémon', 'Vine Whip', '10', 'Fire', 'Water', '1', 44, 1),
+(50, 'Ivysaur', 1, 2, 'Seed Pokémon', 'Razor Leaf', '30', 'Fire', 'Water', '2', 45, 1),
+(80, 'Venusaur', 1, 3, 'Seed Pokémon', 'Solar Beam', '60', 'Fire', 'Water', '3', 15, 1),
+(50, 'Charmander', 2, 1, 'Lizard Pokémon', 'Ember', '30', 'Water', NULL, '1', 46, 1),
+(80, 'Charmeleon', 2, 2, 'Flame Pokémon', 'Flamethrower', '50', 'Water', NULL, '2', 24, 1),
+(120, 'Charizard', 2, 3, 'Flame Pokémon', 'Fire Spin', '100', 'Water', NULL, '3', 4, 1),
+(50, 'Squirtle', 3, 1, 'Tiny Turtle Pokémon', 'Bubble', '10', 'Lightning', NULL, '1', 7, 1),
+(80, 'Wartortle', 3, 2, 'Turtle Pokémon', 'Water Gun', '40', 'Lightning', NULL, '1', 42, 1),
+(100, 'Blastoise', 3, 3, 'Shellfish Pokémon', 'Hydro Pump', '60', 'Lightning', NULL, '3', 2, 1),
+(60, 'Pikachu', 4, 1, 'Mouse Pokémon', 'Thunder Jolt', '30', 'Fighting', 'Steel', '1', 58, 1),
+(90, 'Raichu', 4, 2, 'Mouse Pokémon', 'Thunder', '60', 'Fighting', 'Steel', '2', 14, 1),
+(60, 'Jigglypuff', 7, 1, 'Balloon Pokémon', 'Lullaby', '0', 'Fighting', 'Psychic', '1', 54, 2),
+(100, 'Wigglytuff', 7, 2, 'Balloon Pokémon', 'Do the Wave', '10x', 'Fighting', 'Psychic', '2', 32, 2),
+(70, 'Meowth', 7, 1, 'Scratch Cat Pokémon', 'Pay Day', '20', 'Fighting', NULL, '1', 56, 2),
+(90, 'Persian', 7, 2, 'Classy Cat Pokémon', 'Slash', '30', 'Fighting', NULL, '1', 36, 2),
+(60, 'Hitmonlee', 6, 1, 'Kicking Pokémon', 'Stretch Kick', '30', 'Psychic', NULL, '2', 7, 3),
+(60, 'Hitmonchan', 6, 1, 'Punching Pokémon', 'Special Punch', '40', 'Psychic', NULL, '2', 7, 3),
+(80, 'Gastly', 5, 1, 'Gas Pokémon', 'Lick', '10', 'Psychic', NULL, '1', 33, 3),
+(100, 'Haunter', 5, 2, 'Gas Pokémon', 'Nightmare', '20', 'Psychic', NULL, '1', 23, 3),
+(130, 'Gengar', 5, 3, 'Shadow Pokémon', 'Dark Mind', '60', 'Psychic', NULL, '3', 5, 3);
